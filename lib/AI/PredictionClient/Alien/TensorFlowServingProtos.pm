@@ -77,6 +77,15 @@ At this time only Linux builds are supported.
 
 =cut
 
+=head2 CPAN Testers Note
+
+It is normal for this module to fail the CPAN Testers' tests. 
+The build support tools needed by this module and especially the 
+Alien::Google::GRPC module are not normally installed on the 
+CPAN Testers' machines.
+
+=cut
+
 =head1 AUTHOR
 
 Tom Stall stall@cpan.org
