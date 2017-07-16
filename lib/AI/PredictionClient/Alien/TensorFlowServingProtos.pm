@@ -67,7 +67,7 @@ This module is dependent on gRPC. This module will use the cpan module Alien::Go
 either use an existing gRPC installed on your system or if not found, the Alien::Google::GRPC
 module will download and build a private copy.
 
-Additional, the following dependencies need to be installed in order for this module to build.
+Additionally, the following dependencies need to be installed in order for this module to build.
 
  $ [sudo] apt-get install build-essential make g++
 
